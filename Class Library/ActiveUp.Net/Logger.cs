@@ -17,7 +17,7 @@ namespace ActiveUp.Net
 		private static ArrayList _logEntries = new ArrayList();
 		private static bool _logInMemory = false, _disabled = false, _useTraceContext = false, _useTraceConsole = false;
 		private static int _logLevel = 0;
-		private static bool _isChecked = false;
+	//	private static bool _isChecked = false;
 				
 		/// <summary>
 		/// The default constructor.

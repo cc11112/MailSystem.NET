@@ -71,7 +71,7 @@ namespace ActiveUp.Net.Samples.PDI
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error while loading the vCard. Please ensure this is a compatible format.");
+                MessageBox.Show("Error while loading the vCard. Please ensure this is a compatible format:" + ex.Message);
             }
             finally
             {
@@ -124,7 +124,7 @@ namespace ActiveUp.Net.Samples.PDI
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error while trying to save the vCard file.");
+                    MessageBox.Show("Error while trying to save the vCard file: " + ex.Message );
                 }
             }
         }
