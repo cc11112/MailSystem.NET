@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveUp.Net.Tests", "Class
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveUp.Net", "Class Library\ActiveUp.Net\ActiveUp.Net.csproj", "{25DA9502-B959-4E81-9368-471AE231BCC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveUp.Net.Samples", "Samples\CS\ActiveUp.Net.Samples\ActiveUp.Net.Samples.csproj", "{D7048DA0-D973-4B69-9133-BF6620561E77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
@@ -606,6 +608,36 @@ Global
 		{25DA9502-B959-4E81-9368-471AE231BCC0}.Trial|Any CPU.Build.0 = Trial|Any CPU
 		{25DA9502-B959-4E81-9368-471AE231BCC0}.Trial|Mixed Platforms.ActiveCfg = Trial|Any CPU
 		{25DA9502-B959-4E81-9368-471AE231BCC0}.Trial|Mixed Platforms.Build.0 = Trial|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Debug|.NET.Build.0 = Debug|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.MailSystem Dev|.NET.ActiveCfg = MailSystem Dev|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.MailSystem Dev|.NET.Build.0 = MailSystem Dev|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.MailSystem Dev|Any CPU.ActiveCfg = MailSystem Dev|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.MailSystem Dev|Any CPU.Build.0 = MailSystem Dev|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.MailSystem Dev|Mixed Platforms.ActiveCfg = MailSystem Dev|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.MailSystem Dev|Mixed Platforms.Build.0 = MailSystem Dev|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Release|.NET.ActiveCfg = Release|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Release|.NET.Build.0 = Release|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Retail|.NET.ActiveCfg = Retail|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Retail|.NET.Build.0 = Retail|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Retail|Any CPU.ActiveCfg = Retail|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Retail|Any CPU.Build.0 = Retail|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Retail|Mixed Platforms.ActiveCfg = Retail|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Retail|Mixed Platforms.Build.0 = Retail|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Trial|.NET.ActiveCfg = Trial|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Trial|.NET.Build.0 = Trial|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Trial|Any CPU.ActiveCfg = Trial|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Trial|Any CPU.Build.0 = Trial|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Trial|Mixed Platforms.ActiveCfg = Trial|Any CPU
+		{D7048DA0-D973-4B69-9133-BF6620561E77}.Trial|Mixed Platforms.Build.0 = Trial|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
