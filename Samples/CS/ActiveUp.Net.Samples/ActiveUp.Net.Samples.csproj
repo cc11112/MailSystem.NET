@@ -89,27 +89,6 @@
     <Reference Include="ActiveUp.Net.Dns">
       <HintPath>..\..\..\Class Library\ActiveUp.Net.Dns\obj\Debug\ActiveUp.Net.Dns.dll</HintPath>
     </Reference>
-    <Reference Include="ActiveUp.Net.Groupware">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.Groupware\obj\Debug\ActiveUp.Net.Groupware.dll</HintPath>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Imap4">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.Imap4\obj\Debug\ActiveUp.Net.Imap4.dll</HintPath>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Mail">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.Mail\obj\Debug\ActiveUp.Net.Mail.dll</HintPath>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Nntp">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.Nntp\obj\Debug\ActiveUp.Net.Nntp.dll</HintPath>
-    </Reference>
-    <Reference Include="ActiveUp.Net.OpenPGP">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.OpenPGP\obj\Debug\ActiveUp.Net.OpenPGP.dll</HintPath>
-    </Reference>
-    <Reference Include="ActiveUp.Net.Pop3">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.Pop3\obj\Debug\ActiveUp.Net.Pop3.dll</HintPath>
-    </Reference>
-    <Reference Include="ActiveUp.Net.WhoIs">
-      <HintPath>..\..\..\Class Library\ActiveUp.Net.WhoIs\obj\Debug\ActiveUp.Net.WhoIs.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -854,9 +833,33 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net.Groupware\ActiveUp.Net.Groupware.csproj">
+      <Project>{c646ed2b-50b7-4178-befa-657f1259251f}</Project>
+      <Name>ActiveUp.Net.Groupware</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net.Imap4\ActiveUp.Net.Imap4.csproj">
+      <Project>{6bee77df-2dd2-41c3-ba16-60e20b1eddcc}</Project>
+      <Name>ActiveUp.Net.Imap4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net.Mail\ActiveUp.Net.Mail.csproj">
+      <Project>{2bd4c73e-c8db-420e-9505-96d3f3bca7b6}</Project>
+      <Name>ActiveUp.Net.Mail</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net.Nntp\ActiveUp.Net.Nntp.csproj">
+      <Project>{ff4b354a-213b-415a-b8f7-582baafabc8c}</Project>
+      <Name>ActiveUp.Net.Nntp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net.Pop3\ActiveUp.Net.Pop3.csproj">
+      <Project>{3f01cf20-c49d-44a9-aa57-68f04915fe97}</Project>
+      <Name>ActiveUp.Net.Pop3</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net.Smtp\ActiveUp.Net.Smtp.csproj">
       <Project>{D9BCD15E-A438-4554-89D3-1CF122167FDD}</Project>
       <Name>ActiveUp.Net.Smtp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Class Library\ActiveUp.Net\ActiveUp.Net.csproj">
+      <Project>{25da9502-b959-4e81-9368-471ae231bcc0}</Project>
+      <Name>ActiveUp.Net</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
